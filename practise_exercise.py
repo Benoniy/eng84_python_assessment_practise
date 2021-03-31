@@ -16,3 +16,10 @@ for number in numbers:
     print(number)
 
 
+# Write the names of the boolean operators
+# == equal to
+# != not equal to
+# > greater than
+# < Less than
+# <= Less than or equal to
+# >= greater than or equal to
