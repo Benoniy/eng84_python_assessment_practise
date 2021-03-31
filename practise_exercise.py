@@ -90,3 +90,20 @@ def is_dunni(name):
 
 print(is_dunni("Dunni"))
 
+
+# task 8 - Create a class called Human with one method called breathe
+# breathe should return "breathing"
+# create a second class Student that inherits from human
+# create an object of student and call the inherited breathe method
+
+class Human:
+    def breathe(self):
+        return "breathing"
+
+
+class Student(Human):
+    pass
+
+
+student1 = Student()
+print(student1.breathe())
