@@ -66,3 +66,15 @@ print(student.mood)
 print(student.sleepy)
 
 
+# Declare a set with values from 1-4
+
+num_set = {"1", "2", "3", "4"}
+# The differance between sets and other collections are that they are unordered
+print(num_set)
+print(num_set)
+
+# Add something to the set
+num_set.add("10")
+print(num_set)
+
+
