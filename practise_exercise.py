@@ -177,3 +177,26 @@ def combine_odd_even(odd_list, even_list):
 
 
 combine_odd_even(odd_numbers, even_numbers)
+
+
+# task 15 - create a dictionary called shopping_list with 3 key value pairs
+# "milk": 1
+# "yogurt": 1.15
+# "ice cream": 2.38
+# create a function that takes dictionary as an argument and iterates through the values adding them to a total
+# return the total cost
+
+shopping_list = {"milk": 1,
+                 "yougurt": 1.15,
+                 "ice cream": 2.38}
+
+
+def calc_list_value(shopping):
+    total = 0
+    for val in shopping.values():
+        total += val
+    return round(total, 2)
+
+
+print("total is", calc_list_value(shopping_list))
+
