@@ -1,4 +1,4 @@
-# Create a function called greeting that takes a string argument
+# task 1 - Create a function called greeting that takes a string argument
 # and return hello string
 
 def greeting(name):
@@ -9,14 +9,15 @@ def greeting(name):
 print(greeting("Ben"))
 
 
-# Declare a list of numbers from 1-9, iterate through the list and print each number
+# task 2 - Declare a list of numbers from 1-9, iterate through the list and print each number
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 for number in numbers:
     print(number)
 
 
-# Write the names of the boolean operators
+# task 3 - Write the names of the boolean operators
+# and use one to combine two conditional statements
 # and
 # or
 
@@ -24,7 +25,7 @@ if 'a' == 'b' and 'b' == 'c':
     print(True)
 
 
-# create a list of 5 numbers starting with 0
+# task 4 - create a list of 5 numbers starting with 0
 # create a tuple with the same information
 # change the value of the last index of the tuple
 
@@ -34,7 +35,7 @@ num_tuple = (0, 1, 2, 3, 4)
 # num_tuple[4] = 6  does not work, tuples are immutable
 
 
-# Create a dictionary with two key value pairs
+# task 5 - Create a dictionary with two key value pairs
 # first pair - "name": "james"
 # second pair - "age": 21
 # print the value of each of the keys
@@ -45,7 +46,7 @@ dict_example = {"name": "James",
 print(dict_example["name"], dict_example["age"])
 
 
-# Create a class called Isobel, initialize it
+# task 6 - Create a class called Isobel, initialize it
 # It should take two arguments
 # create an object of that class
 
@@ -66,7 +67,7 @@ print(student.mood)
 print(student.sleepy)
 
 
-# Declare a set with values from 1-4
+# task 7 - Declare a set with values from 1-4
 
 num_set = {"1", "2", "3", "4"}
 # The differance between sets and other collections are that they are unordered
@@ -91,7 +92,7 @@ def is_dunni(name):
 print(is_dunni("Dunni"))
 
 
-# task 8 - Create a class called Human with one method called breathe
+# task 9 - Create a class called Human with one method called breathe
 # breathe should return "breathing"
 # create a second class Student that inherits from human
 # create an object of student and call the inherited breathe method
