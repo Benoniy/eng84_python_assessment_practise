@@ -57,4 +57,12 @@ class Isobel:
 
 
 isobel = Isobel("yes", False)
+print(isobel.mood)
+print(isobel.sleepy)
+
+# create another Isobel object and print the attributes
+student = Isobel("happy", True)
+print(student.mood)
+print(student.sleepy)
+
 
