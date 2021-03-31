@@ -22,3 +22,13 @@ for number in numbers:
 
 if 'a' == 'b' and 'b' == 'c':
     print(True)
+
+
+# create a list of 5 numbers starting with 0
+# create a tuple with the same information
+# change the value of the last index of the tuple
+
+num_list = [0, 1, 2, 3, 4]
+num_tuple = (0, 1, 2, 3, 4)
+
+# num_tuple[4] = 6  does not work, tuples are immutable
