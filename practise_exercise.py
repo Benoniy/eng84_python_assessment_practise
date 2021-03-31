@@ -20,3 +20,5 @@ for number in numbers:
 # and
 # or
 
+if 'a' == 'b' and 'b' == 'c':
+    print(True)
