@@ -158,3 +158,22 @@ def true_divide(num1, num2):
 true_divide(100, 0)
 
 
+# task 14 - write five odd numbers in a list and then 5 even ones in another list
+# iterate through these list and combine and display them in a function
+
+
+odd_numbers = [1, 3, 5, 7, 9]
+even_numbers = [2, 4, 6, 8, 10]
+
+
+def combine_odd_even(odd_list, even_list):
+    new_list = odd_list
+    count = 1
+    for n in even_list:
+        new_list.insert(count, n)
+        count += 2
+
+    print(new_list)
+
+
+combine_odd_even(odd_numbers, even_numbers)
