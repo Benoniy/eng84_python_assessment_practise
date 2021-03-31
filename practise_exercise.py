@@ -108,3 +108,53 @@ class Student(Human):
 
 student1 = Student()
 print(student1.breathe())
+
+
+# task 10 - Write the correct syntax to use the keyword super
+class Parent:
+    def __init__(self):
+        self.alive = True
+
+
+# Super refers to the parent class of a class, when used in this manner you can use methods of the parent class such as the __init__ to effect the child.
+class Child(Parent):
+    def __init__(self):
+        super().__init__()
+
+
+# task 11 - create a list that stores 0-4
+# create a function that takes a list as and arg
+# the function should return true if the data type of the arg is list
+type_list = [0, 1, 2, 3, 4]
+
+
+def is_list(arg):
+    return type(arg) == list
+
+
+print(is_list(type_list))
+
+
+# task 12 - create a function called get_percentage
+# it should take 2 int arguments and returns the percentage difference between the two
+def get_percentage(num1, num2):
+    return str((num1 / num2) * 100) + "%"
+
+
+print(get_percentage(60, 120))
+
+
+# task 13 - create a function that takes 2 args as int and divide num1 by num2
+# return the outcome
+# if dividing by 0 throw an error
+
+def true_divide(num1, num2):
+    if num2 == 0:
+        return ZeroDivisionError
+    else:
+        return num1 / num2
+
+
+true_divide(100, 0)
+
+
