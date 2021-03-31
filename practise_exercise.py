@@ -45,4 +45,16 @@ dict_example = {"name": "James",
 print(dict_example["name"], dict_example["age"])
 
 
+# Create a class called Isobel, initialize it
+# It should take two arguments
+# create an object of that class
+
+
+class Isobel:
+    def __init__(self, mood, sleepy):
+        self.mood = mood
+        self.sleepy = sleepy
+
+
+isobel = Isobel("yes", False)
 
