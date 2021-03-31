@@ -78,3 +78,15 @@ num_set.add("10")
 print(num_set)
 
 
+# task 8 - Create a method that takes one string argument
+# The arg should be a name
+# If the name equals Dunni return true else false
+
+def is_dunni(name):
+    if name.lower() == "dunni":
+        return True
+    return False
+
+
+print(is_dunni("Dunni"))
+
