@@ -32,3 +32,17 @@ num_list = [0, 1, 2, 3, 4]
 num_tuple = (0, 1, 2, 3, 4)
 
 # num_tuple[4] = 6  does not work, tuples are immutable
+
+
+# Create a dictionary with two key value pairs
+# first pair - "name": "james"
+# second pair - "age": 21
+# print the value of each of the keys
+
+dict_example = {"name": "James",
+                "age": 21}
+
+print(dict_example["name"], dict_example["age"])
+
+
+
